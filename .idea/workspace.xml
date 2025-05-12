@@ -58,7 +58,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.SwapTwoVariables">
+  <component name="RunManager" selected="Application.Multiplication">
     <configuration name="AreaOfRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.basics.logics.AreaOfRectangle" />
       <module name="BasicsOfJava" />
@@ -80,9 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.basics.logics.SumOfTwoNumbers" />
+    <configuration name="Multiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.basics.loops.Multiplication" />
       <module name="BasicsOfJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.basics.loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +98,7 @@
       <module name="BasicsOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.basics.logics.*" />
+          <option name="PATTERN" value="com.practice.basics.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,15 +108,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multiplication" />
         <item itemvalue="Application.SwapTwoVariables" />
         <item itemvalue="Application.CheckEvenOrOdd" />
         <item itemvalue="Application.MaxOfThreeNumbers" />
         <item itemvalue="Application.AreaOfRectangle" />
-        <item itemvalue="Application.SumOfTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\SURYA PRIYA\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e14e395c-1505-48b6-8c01-bb980bf8d921" name="Changes" comment="" />

@@ -10,8 +10,15 @@ public class GCD {
         return a;
     }
 
+    public static int gcdUsingRecursion(int a, int b){
+        if(b == 0)
+            return a;
+        return gcdUsingRecursion(b, a %b);
+    }
+
     public static void main(String[] args) {
-        int gcd = findGCD(4,16);
+        //int gcd = findGCD(4,16);
+        int gcd = gcdUsingRecursion(56,34);
         System.out.println("GCD: "+gcd);
     }
 }

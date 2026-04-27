@@ -58,7 +58,8 @@ public class BasicStreams {
 	
 	private static void findFirstMatch() {
 		List<String> inputList = Arrays.asList("cherry", "apple","amla", "umbrella", "base", "Ant");
-		Optional<String> matchedStr = inputList.stream().filter(s -> s.startsWith("A")).
+		Optional<String> matchedStr = inputList.stream().
+				filter(s -> s.startsWith("A")).
 				findFirst();
 		 matchedStr.ifPresent(System.out::println); 
 		
